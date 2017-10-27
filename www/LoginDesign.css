@@ -1,0 +1,132 @@
+@CHARSET "ISO-8859-1";
+/* Below line is used for online Google font */
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+body{
+	background-image: url(../Desktop/bg.jpg);
+}
+body.cr{
+	background-image: url(../Desktop/crbg.jpg);
+	background-repeat: no-repeat;
+}
+h2{
+	text-align: center;
+	margin-left: 120px;
+	color: crimson;
+}
+hr{
+margin: 10px -50px;
+border: 0;
+border-top: 1px solid #ccc;
+margin-bottom: 40px;
+}
+div.container{
+width: 900px;
+height: 610px;
+margin:35px auto;
+font-family: 'Raleway', sans-serif;
+}
+div.main{
+width: 300px;
+padding: 10px 50px 25px;
+font-family: raleway;
+float:left;
+margin-top:50px;
+}
+input[type=text],input[type=password]{
+width: 100%;
+height: 40px;
+padding: 5px;
+margin-bottom: 25px;
+margin-top: 5px;
+margin-left: 281px;
+border: 2px solid #ccc;
+color: #4f4f4f;
+font-size: 16px;
+border-radius: 5px;
+vertical-align: middle;
+}
+label{
+color: #464646;
+text-shadow: 0 1px 0 #fff;
+font-size: 14px;
+font-weight: bold;
+margin-left: 210px;
+}
+center{
+font-size:40px;
+}
+.note{
+color:blue;
+align: center;
+}
+.valid{
+color:green;
+}
+.back{
+text-decoration: none;
+border: 1px solid rgb(0, 143, 255);
+background-color: rgb(0, 214, 255);
+padding: 3px 20px;
+border-radius: 2px;
+color: black;
+}
+input[type=button]{
+font-size: 16px;
+background: white;
+border: 1px solid #e5a900;
+color: crimson;
+border-radius: 20px;
+font-weight: bold;
+cursor: pointer;
+width: 100%;
+padding: 10px 0;
+outline:none;
+margin-left: 280px;
+}
+input[type=button]:hover{
+background: lightseagreen;
+}
+
+.crbq:hover{
+	color: crimson;
+	background-color: white;
+}
+.crbq{
+	color: snow;
+}
+.cr h1{
+	color: white;
+	text-align: center;
+}
+.cr h1:hover{
+	from {background-color: white;}
+    to {background-color: yellow;}
+}
+.res{
+	opacity: 0.5;
+	 width: 300px;
+    height: 300px;
+    background: red;
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+}
+.res:hover{
+	opacity: 1;
+	width: 500px;
+	height: 500px;
+	position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    border-radius: 50%;
+}
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}

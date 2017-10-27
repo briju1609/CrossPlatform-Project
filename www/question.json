@@ -1,0 +1,83 @@
+ {
+    "question": "Which of the following is a valid type of function javascript supports?",
+    "choices": ["named function","anonymous function","Both of the above.","None of above"],
+    "correctAnswer": 2
+  }, {
+    "question": "Which of the following type of variable takes precedence over other if names are same?",
+    "choices": ["global variable","local variable","Both of the above.","None of above"],
+    "correctAnswer": 1
+  }, {
+    "question": "Which of the following jQuery selector select elements whose css class is some-class?",
+    "choices": ["$('some-class')","$('#some-class')","$('.some-class')","None of Above"],
+    "correctAnswer": 2
+  }, {
+    "question": "Which of the following jQuery method gets attributes of an element?",
+    "choices": ["attr()","getAttr()","getAttributes()","None of the above."],
+    "correctAnswer": 0
+  }, {
+    "question": "Which of the following jQuery method checks the current selection against an expression?",
+   "choices": ["getIs( selector )","is( selector )","checkIs( selector )","None of the above."],
+   " correctAnswer": 1
+  }, {
+    "question": "Which of the following jQuery method searches for descendent elements that match the specified selectors?",
+    "choices": ["locate( selector )","find( selector)","search( selector )","None of above"],
+    "correctAnswer": 1
+  }, {
+    "question": "Which of the following jQuery method gets the height property of an element?",
+    "choices": ["getCSSHeight( )","getHeight( )","height( )","None of the above."],
+    "correctAnswer": 2
+  }, {
+    "question": "Which of the following jQuery method returns the top and left position of an element relative to its offset parent?",
+    "choices": ["offset( )","offsetParent( )","position( )","None of the above."],
+    "correctAnswer": 2
+  }, {
+    "question": "Which of the following jQuery method stops the rest of the event handlers from being executed?",
+    "choices": ["preventDefault( )","stopImmediatePropagation( )","stopPropagation( )","None of the above."],
+    "correctAnswer": 1
+  }, {
+    "question": "Which of the following jQuery method can be used to attach a function to be executed whenever an AJAX request is sent?",
+    "choices": ["ajaxStart( callback )","ajaxComplete( callback )","ajaxSend( callback )","ajaxError(callback)"],
+    "correctAnswer": 2
+  },{
+    "question": "Which of the following selector matches a element based on its class attribute?",
+    "choices": ["The Type Selector","The Universal Selector","The Descendant Selector","The Class Selector"],
+    "correctAnswer": 3
+  }, {
+    "question": "Which of the following defines a measurement as a percentage relative to another value, typically an enclosing element?",
+    "choices": ["%","cm","em","ex"],
+    "correctAnswer": 0
+  }, {
+    "question": "Which of the following is correct about RGB Values format of CSS colors?",
+    "choices": ["This color value is specified using the rgb( ) property.","This property takes three values, one each for red, green, and blue.","The value can be an integer between 0 and 255 or a percentage.","All of Above"],
+    "correctAnswer": 3
+  }, {
+    "question": "Which of the following property is used to control the repetition of an image in the background?",
+    "choices": ["background-color","background-image","background-repeat","background-position"],
+    "correctAnswer": 2
+  }, {
+    "question": "Which of the following property is used to set the text direction?",
+    "choices": ["color","direction","letter-spacing","word-spacing"],
+    "correctAnswer": 1
+  }, {
+    "question": "Which of the following property is used to set the width of an image border?",
+    "choices": ["border","height","width","-moz-opacity"],
+    "correctAnswer": 0
+  }, {
+    "question": "Which of the following property specifies whether a border should be solid, dashed line, double line, or one of the other possible values?",
+    "choices": [":border-color",":border-style",":border-width",":border-bottom-color"],
+    "correctAnswer": 1
+  }, {
+    "question": "Which of the following property changes the style of left border?",
+    "choices": [":border-bottom-style",":border-top-style",":border-left-style",":border-right-style"],
+    "correctAnswer": 2
+  }, {
+    "question": "Which of the following property allows you to control the shape or appearance of the marker of a list?",
+    "choices": ["list-style-type","list-style-position","list-style-image","list-style"],
+    "correctAnswer": 0
+  },
+   {
+    "question": "Which of the following property serves as shorthand for the padding properties?",
+     "choices":["padding","padding-top","padding-left","padding-right"],
+   "correctAnswer": 0
+  }
+  
